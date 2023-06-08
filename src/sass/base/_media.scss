@@ -1,0 +1,130 @@
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 991px) {
+    .promo {
+        &__wrapper {
+            align-items: center;
+        }
+        &__header {
+            font-size: 35px;
+        }
+        &__subheader {
+            font-size: 18px;
+        }
+        &__link {
+            font-size: 14px;
+        }
+    }
+
+    .button_main {
+        font-size: 13px;
+        width: 264px;
+    }
+
+    .title {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 767px) {
+    .header {
+        &__logo {
+            width: 190px;
+        }
+        &__official {
+            font-size: 13px;
+            span {
+                font-size: 18px;
+            }
+        }
+        &__phone {
+            font-size: 14px;
+        }
+    }
+
+    .button .button_main {
+        font-size: 12px;
+        width: 200px;
+    }
+
+    .promo {
+        &__wrapper {
+            align-items: center;
+        }
+        &__header {
+            font-size: 30px;
+        }
+        &__subheader {
+            font-size: 15px;
+        }
+        &__link {
+            font-size: 12px;
+        }
+        &__icon {
+            font-size: 12px;
+        }
+    }
+
+    .advantages {
+        &__wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__descr {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .header {
+        &__logo {
+            width: 135px;
+        }
+        &__official {
+            display: none;
+        }
+        &__phone {
+            font-size: 12px;
+        }
+    }
+
+    .button  {
+        font-size: 10px;
+        width: 110px;
+    }
+
+    .button_main {
+        font-size: 12px;
+        width: 170px;
+    }
+
+    .promo {
+        &__wrapper {
+            align-items: center;
+        }
+        &__header {
+            font-size: 23px;
+        }
+        &__subheader {
+            font-size: 11px;
+        }
+        &__link {
+            font-size: 10px;
+        }
+        &__icon {
+            font-size: 12px;
+        }
+        &__icons {
+            width: 320px;
+        }
+    }
+
+    .advantages {
+        &__descr {
+            margin-bottom: 20px;
+        }
+    }
+}
